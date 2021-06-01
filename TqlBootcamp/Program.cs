@@ -7,6 +7,9 @@ using TqlBootcamp.Models;
 namespace TqlBootcamp {
     class Program {
         static void Main(string[] args) {
+
+        }
+        static void Loaddb() { 
             var _context = new BootcampContext();
 
             var scores = from s in _context.Students
@@ -28,9 +31,8 @@ namespace TqlBootcamp {
 
             //Console.WriteLine($"Average points on assessments is {avgPoints}");
 
-        }
-        static void LoadDb() { 
-            var _context = new BootcampContext();
+        
+            //var _context = new BootcampContext();
             // add the student
             var greg = new Student() {
                 Firstname = "Greg", Lastname = "Doud", TargetSalary = 20000, InBootcamp = true
