@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TqlBootcamp", "TqlBootcamp\TqlBootcamp.csproj", "{7899AE83-B360-4D71-AB1B-D5A130FFA484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7899AE83-B360-4D71-AB1B-D5A130FFA484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7899AE83-B360-4D71-AB1B-D5A130FFA484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7899AE83-B360-4D71-AB1B-D5A130FFA484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7899AE83-B360-4D71-AB1B-D5A130FFA484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9041ED0A-2ED9-4E0F-9E6C-FE3C1F9FE1D3}
+	EndGlobalSection
+EndGlobal
